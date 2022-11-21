@@ -37,16 +37,5 @@ public class Main {
                 middle = mishaAge;
             }
             System.out.println("Middle age: " + middle);
-
-        if (vasyaAge >= katyaAge && vasyaAge >= mishaAge) {
-                max = vasyaAge;
-            } else if (katyaAge >= vasyaAge && katyaAge >= mishaAge) {
-                max = katyaAge;
-            } else if (mishaAge >= katyaAge && mishaAge >= vasyaAge) {
-                max = mishaAge;
-            }
-            System.out.println("Maximal age: " + max);
-
-
     }
 }
